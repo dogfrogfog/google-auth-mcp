@@ -1,6 +1,6 @@
 {
   "name": "google-auth-mcp",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Simple Google Auth for MCP server (and maybe something else)",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
