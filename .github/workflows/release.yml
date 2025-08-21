@@ -68,7 +68,7 @@ jobs:
       - name: Commit and push version bump
         run: |
           git add package.json
-          git commit -m "Bump version to ${{ steps.version-bump.outputs.version }} [skip ci]"
+          git commit -m "Bump version to ${{ steps.version-bump.outputs.version }}"
           git tag "${{ steps.version-bump.outputs.tag }}"
           git push origin main
           git push origin "${{ steps.version-bump.outputs.tag }}"
