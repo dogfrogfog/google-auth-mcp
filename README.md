@@ -24,7 +24,7 @@ bun install google-auth-mcp
 
 ## Prerequisites
 
-1. **Node.js >= 18** (ESM support required)
+1. **Node.js >= 22** (ESM support required)
 2. **Google Cloud Console Setup**:
    - Create a project in [Google Cloud Console](https://console.cloud.google.com/)
    - Enable the APIs you want to use (e.g., YouTube API, Drive API)
