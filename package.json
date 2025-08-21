@@ -45,6 +45,10 @@
     "access": "public",
     "provenance": true
   },
+  "dependencies": {
+    "google-auth-library": "10.0.0",
+    "@google-cloud/local-auth": "3.0.0"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "rimraf": "6.0.1",
