@@ -1,15 +1,4 @@
-type User = {
-    name: string;
-    age: number;
-    city: string;
-}
-
-const data: User = {
-    name: "John",
-    age: 30,
-    city: "New York",
-}
-
-export function getUser() {
-    return data;
-}
+// Re-export everything from src
+export * from './src/auth.js';
+export * from './src/storage.js';
+export * from './src/errors.js';
