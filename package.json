@@ -1,0 +1,36 @@
+{
+  "name": "google-auth-mcp",
+  "version": "1.0.0",
+  "description": "Simple Google Auth for MCP server (and maybe something else)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "google",
+    "auth",
+    "mcp",
+    "model-context-protocol"
+  ],
+  "author": "dogfrogfog",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "5"
+  }
+}
